@@ -10,7 +10,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/my-npm-package.git"
+    "url": "https://github.com/chooyee/x509-pqc-hybrid"
   },
   "keywords": [
     "x509",
