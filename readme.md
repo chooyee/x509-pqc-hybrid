@@ -35,7 +35,7 @@ const { X509Hybrid } = require('x509-pqc-hybrid');
 const x509 = new X509Hybrid({
   commonName: 'example.com',
   organization: 'Example Corp',
-  pqcAlgorithm: 'ml_dsa65'
+  pqcAlgorithm: 'ml_dsa65' || 'ml_dsa44' || 'ml_dsa87'
 });
 
 async function generateCertificate() {
